@@ -12,7 +12,7 @@ def main():
         ims = ex1a.split_into_4(im)
         for i in range(0, 4):
             ims[i] = ex1c.power_transform(ims[i], 2.2)
-            cv2.imshow('Segment '+str(i), ims[i])
+            cv2.imshow('Segment '+str(i+1), ims[i])
         ex1b.calcHistograms_RGB(ims)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
