@@ -1,45 +1,36 @@
 import cv2
 import numpy as np
 from skimage.exposure import rescale_intensity
-import ex2a as ex2a
 import ex2b as ex2b
-import math
 
 # TODO: Rephrase (IMPROVE w/ pseudocode in slides)
-def kernel_Gaussian(size_x, size_y=None, sigma_x=1, sigma_y=None):
-    if size_y == None:
-        size_y = size_x
-    if sigma_y == None:
-        sigma_y = sigma_x
+def kernel_Gaussian(size, fwhm=10, center=None):
+    x = np.arange(0, size, dtype=float)
+    y = x[:,np.newaxis]
 
-    x0 = size_x // 2
-    y0 = size_y // 2
-
-    x = np.arange(0, size_x, dtype=float)
-    y = np.arange(0, size_y, dtype=float)[:, np.newaxis]
+    if center is None:
+        x0 = y0 = size // 2
+    else:
+        x0 = center[0]
+        y0 = center[1]
 
     x -= x0
     y -= y0
 
-    exp_part = x ** 2 / (2 * sigma_x ** 2) + y ** 2 / (2 * sigma_y ** 2)
-    return 1 / (2 * np.pi * sigma_x * sigma_y) * np.exp(-exp_part)
+    return np.exp(-4 * np.log(2) * ((x - x0) ** 2 + (y - y0) **2) / fwhm **2)
+
+# https://gist.github.com/andrewgiessel/4635563
 
 def main():
-    im = cv2.imread("community.jpg", 0)
+    im = cv2.imread("community.jpg", 1)
 
-    sobelx = im.copy()  # initialization
-    gaussian = im.copy()  # initialization
+    #sobelx = ex2b.convolve(im, ex2b.kernel_SerbelX())
+    #sobely = ex2b.convolve(im, ex2b.kernel_SerbelY())
+    gaussian = ex2b.convolve(im, kernel_Gaussian(3))
 
-    # Traverse through windows of the image
-    windows = ex2a.slide_window(im, 50, 50, verbose=False, speed=1)
-    for w in windows:
-        print(w[0],w[1], w[2],w[3])
-        roi = im[w[0]:w[1], w[2]:w[3]]
-        roi = ex2b.convolve(roi, ex2b.kernel_SerbelX())
-        #gaussian[w[0]:w[1], w[2]:w[3]] = ex2b.convolve(roi.copy(), kernel_Gaussian(3, 3))
-
-    cv2.imshow("Convolution - Sobel X", roi)
-    #cv2.imshow("Convolution - Gaussian", gaussian)
+    cv2.imshow("Original", im)
+    #cv2.imshow("Convolution - Sobel XY", sobelx + sobely)
+    cv2.imshow("Convolution - Gaussian", gaussian)
     cv2.waitKey(0)
 
 if __name__ == '__main__':
