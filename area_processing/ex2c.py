@@ -1,9 +1,10 @@
 import cv2
 import numpy as np
 from skimage.exposure import rescale_intensity
+import ex2a as ex2a
 import ex2b as ex2b
 
-# TODO: Rephrase
+# TODO: Rephrase (IMPROVE w/ pseudocode in slides)
 def kernel_Gaussian(size_x, size_y=None, sigma_x=1, sigma_y=None):
     if size_y == None:
         size_y = size_x
@@ -24,8 +25,21 @@ def kernel_Gaussian(size_x, size_y=None, sigma_x=1, sigma_y=None):
 
 def main():
     im = cv2.imread("community.jpg", 1)
-    ex2b.convolve(im, ex2b.kernel_SerbelX(), 'Serbel-X')
-    ex2b.convolve(im, kernel_Gaussian(3, 3), 'Gaussian')
+
+    # Traverse through windows of the image
+    windows = ex2a.slide_window(im, 50, 50, verbose=True, speed=1)
+    for w in windows:
+        print(w[0], w[1], w[2], w[3])
+        
+
+    sobelx = ex2b.convolve(im, ex2b.kernel_SerbelX())
+    sobely = ex2b.convolve(im, ex2b.kernel_SerbelY())
+
+    gaussian = ex2b.convolve(im, kernel_Gaussian(3, 3))
+
+    cv2.imshow("Convolution - Sobel XY", sobelx + sobely)
+    cv2.imshow("Convolution - Gaussian", gaussian)
+    cv2.waitKey(0)
 
 if __name__ == '__main__':
     main()

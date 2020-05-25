@@ -56,22 +56,24 @@ def convolve_RGB(im, kernel):
     out = out.astype('uint8')
     return out
 
+# 1/8 for right derivatives
 def kernel_SerbelX():
-    sobelX = np.array((
+    sobelX = 1/8 * np.array((
         [1, 2, 1],
         [0, 0, 0],
         [-1, -2, -1]), dtype="int")
     return sobelX
 
+# 1/8 for right derivatives
 def kernel_SerbelY():
-    sobelY = np.array((
+    sobelY = 1/8 * np.array((
         [-1, 0, 1],
         [-2, 0, 2],
         [-1, 0, 1]), dtype="int")
     return sobelY
 
 def main():
-    im = cv2.imread("community.jpg", 1)
+    im = cv2.imread("community.jpg", 0)
     r = cv2.selectROI('Community - Select a region of interest', im, False, False)
     roi = im[int(r[1]): int(r[1] + r[3]), int(r[0]):int(r[0] + r[2])]
     sobelx = convolve(roi, kernel_SerbelX())
