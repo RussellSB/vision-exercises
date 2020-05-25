@@ -74,7 +74,7 @@ def kernel_SerbelY():
 
 def main():
     im = cv2.imread("community.jpg", 0)
-    r = cv2.selectROI('Community - Select a region of interest', im, False, False)
+    r = cv2.selectROI('Select a region of interest', im, False, False)
     roi = im[int(r[1]): int(r[1] + r[3]), int(r[0]):int(r[0] + r[2])]
     sobelx = convolve(roi, kernel_SerbelX())
     sobely = convolve(roi, kernel_SerbelY())

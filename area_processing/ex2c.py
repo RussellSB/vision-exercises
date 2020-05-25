@@ -25,20 +25,21 @@ def kernel_Gaussian(size_x, size_y=None, sigma_x=1, sigma_y=None):
     return 1 / (2 * np.pi * sigma_x * sigma_y) * np.exp(-exp_part)
 
 def main():
-    im = cv2.imread("community.jpg", 1)
+    im = cv2.imread("community.jpg", 0)
+
+    sobelx = im.copy()  # initialization
+    gaussian = im.copy()  # initialization
 
     # Traverse through windows of the image
-    w = math.ceil(im.shape[1] / 25)
-    windows = ex2a.slide_window(im, w, w, verbose=True, speed=1)
+    windows = ex2a.slide_window(im, 50, 50, verbose=False, speed=1)
     for w in windows:
+        print(w[0],w[1], w[2],w[3])
         roi = im[w[0]:w[1], w[2]:w[3]]
+        roi = ex2b.convolve(roi, ex2b.kernel_SerbelX())
+        #gaussian[w[0]:w[1], w[2]:w[3]] = ex2b.convolve(roi.copy(), kernel_Gaussian(3, 3))
 
-    sobelx = ex2b.convolve(roi, ex2b.kernel_SerbelX())
-    sobely = ex2b.convolve(roi, ex2b.kernel_SerbelY())
-    gaussian = ex2b.convolve(roi, kernel_Gaussian(3, 3))
-
-    cv2.imshow("Convolution - Sobel XY", sobelx + sobely)
-    cv2.imshow("Convolution - Gaussian", gaussian)
+    cv2.imshow("Convolution - Sobel X", roi)
+    #cv2.imshow("Convolution - Gaussian", gaussian)
     cv2.waitKey(0)
 
 if __name__ == '__main__':
