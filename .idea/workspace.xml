@@ -22,7 +22,6 @@
     <list default="true" id="540e8e6b-3477-4dde-b548-7c7626f6ef4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/area_processing/ex2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/area_processing/ex2a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/area_processing/ex2b.py" beforeDir="false" afterPath="$PROJECT_DIR$/area_processing/ex2b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/area_processing/ex2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/area_processing/ex2c.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ex2c">
+  <component name="RunManager" selected="Python.ex2a">
     <configuration name="ex1d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,8 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex2c" />
         <item itemvalue="Python.ex2a" />
+        <item itemvalue="Python.ex2c" />
         <item itemvalue="Python.ex2b" />
         <item itemvalue="Python.ex1e" />
         <item itemvalue="Python.ex1d" />
@@ -201,7 +200,7 @@
       <workItem from="1589889959001" duration="46000" />
       <workItem from="1589996342907" duration="350000" />
       <workItem from="1590325586118" duration="627000" />
-      <workItem from="1590408012244" duration="2523000" />
+      <workItem from="1590408012244" duration="3256000" />
     </task>
     <servers />
   </component>
@@ -225,22 +224,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590409725048" />
-    <state width="1493" height="170" key="GridCell.Tab.0.bottom" timestamp="1590410514395">
+    <state width="1493" height="170" key="GridCell.Tab.0.bottom" timestamp="1590411254914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="170" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590410514395" />
-    <state width="1493" height="170" key="GridCell.Tab.0.center" timestamp="1590410514395">
+    <state width="1493" height="170" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590411254914" />
+    <state width="1493" height="170" key="GridCell.Tab.0.center" timestamp="1590411254914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="170" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590410514395" />
-    <state width="1493" height="170" key="GridCell.Tab.0.left" timestamp="1590410514394">
+    <state width="1493" height="170" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590411254914" />
+    <state width="1493" height="170" key="GridCell.Tab.0.left" timestamp="1590411254914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="170" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590410514394" />
-    <state width="1493" height="170" key="GridCell.Tab.0.right" timestamp="1590410514395">
+    <state width="1493" height="170" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590411254914" />
+    <state width="1493" height="170" key="GridCell.Tab.0.right" timestamp="1590411254914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="170" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590410514395" />
+    <state width="1493" height="170" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590411254914" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1590325962396">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -259,12 +258,12 @@
     <SUITE FILE_PATH="coverage/src$ex1d.coverage" NAME="ex1d Coverage Results" MODIFIED="1589062275629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/src$ex1b__1_.coverage" NAME="ex1b (1) Coverage Results" MODIFIED="1589811105871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
     <SUITE FILE_PATH="coverage/vision_exercises$ex1a.coverage" NAME="ex1a Coverage Results" MODIFIED="1590326013645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
-    <SUITE FILE_PATH="coverage/vision_exercises$ex2a.coverage" NAME="ex2a Coverage Results" MODIFIED="1590410405822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
+    <SUITE FILE_PATH="coverage/vision_exercises$ex2a.coverage" NAME="ex2a Coverage Results" MODIFIED="1590411311620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/src$1a.coverage" NAME="1a Coverage Results" MODIFIED="1589057269268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/src$ex1a.coverage" NAME="ex1a Coverage Results" MODIFIED="1589061507418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/vision_exercises$ex1e.coverage" NAME="ex1e Coverage Results" MODIFIED="1590326047295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
     <SUITE FILE_PATH="coverage/src$ex2c.coverage" NAME="ex2c Coverage Results" MODIFIED="1589794885167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
-    <SUITE FILE_PATH="coverage/vision_exercises$ex2c.coverage" NAME="ex2c Coverage Results" MODIFIED="1590410545952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
+    <SUITE FILE_PATH="coverage/vision_exercises$ex2c.coverage" NAME="ex2c Coverage Results" MODIFIED="1590411254904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/vision_exercises$ex1d.coverage" NAME="ex1d Coverage Results" MODIFIED="1590326041332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
   </component>
 </project>

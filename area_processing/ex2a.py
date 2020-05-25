@@ -1,11 +1,12 @@
 import cv2
+import math
 
 def slide_window(im, n, s, verbose=False, speed=30):
     im_tmp = im.copy()
     (w, h) = (n, n)
     windows = []            # list to store windows by [y0, y1, x0, x1]
 
-    for y in range(0, im.shape[0] - w, s):
+    for y in range(0, im.shape[0] - h, s):
         for x in range(0, im.shape[1] - w, s):
             windows.append([x, x+w, y, y+h])
             if(verbose):
@@ -17,7 +18,8 @@ def slide_window(im, n, s, verbose=False, speed=30):
 
 def main():
     im = cv2.imread("community.jpg", 1)
-    slide_window(im, 50, 50, verbose=True)
+    w = math.ceil(im.shape[1]/18)
+    slide_window(im, w, w, verbose=True)
 
 if __name__ == '__main__':
     main()
