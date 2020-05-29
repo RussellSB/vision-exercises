@@ -4,29 +4,23 @@ from skimage.exposure import rescale_intensity
 import ex2b as ex2b
 
 # TODO: Rephrase (IMPROVE w/ pseudocode in slides)
-def kernel_Gaussian(size, fwhm=10, center=None):
+def kernel_Gaussian(size, sigma=1):
+    x0 = y0 = size // 2
+
     x = np.arange(0, size, dtype=float)
-    y = x[:,np.newaxis]
-
-    if center is None:
-        x0 = y0 = size // 2
-    else:
-        x0 = center[0]
-        y0 = center[1]
-
+    y = np.arange(0, size, dtype=float)[:, np.newaxis]
     x -= x0
     y -= y0
 
-    return np.exp(-4 * np.log(2) * ((x - x0) ** 2 + (y - y0) **2) / fwhm **2)
-
-# https://gist.github.com/andrewgiessel/4635563
+    exp_formula = (x ** 2 + y ** 2) / (2 * sigma ** 2)
+    return 1 / (2 * np.pi * sigma ** 2) * np.exp(-exp_formula)
 
 def main():
-    im = cv2.imread("community.jpg", 1)
+    im = cv2.imread("images/community.jpg", 1)
 
     #sobelx = ex2b.convolve(im, ex2b.kernel_SerbelX())
     #sobely = ex2b.convolve(im, ex2b.kernel_SerbelY())
-    gaussian = ex2b.convolve(im, kernel_Gaussian(3))
+    gaussian = ex2b.convolve(im, kernel_Gaussian(3, 1))
 
     cv2.imshow("Original", im)
     #cv2.imshow("Convolution - Sobel XY", sobelx + sobely)

@@ -20,8 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="540e8e6b-3477-4dde-b548-7c7626f6ef4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex3a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/shapes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/area_processing/ex2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/area_processing/ex2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/area_processing/community.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/area_processing/ex2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/area_processing/ex2b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/area_processing/ex2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphology/ex3a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphology/ex3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphology/ex3c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphology/ex3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphology/ex3e.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphology/ex3f.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3f.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_processing/ex1a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_processing/ex1b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_processing/ex1c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_processing/ex1d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_processing/ex1e.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point_processing/tunnelOfLove.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +69,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ex2c">
-    <configuration name="ex1d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises\images" />
+      <recent name="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ex3a (1)">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,14 +96,52 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex1a (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex1a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex1a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/point_processing/ex1d.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises\ex1a.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -85,84 +152,53 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/point_processing/ex1e.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises\ex1e.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex2a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex3a (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/area_processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/area_processing/ex2a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3a.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex2b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex3a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/area_processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/morphology" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/area_processing/ex2b.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises\ex3a.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex2c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/area_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/area_processing/ex2c.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -171,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex2c" />
-        <item itemvalue="Python.ex2a" />
-        <item itemvalue="Python.ex2b" />
+        <item itemvalue="Python.ex3a (1)" />
+        <item itemvalue="Python.ex1a (1)" />
+        <item itemvalue="Python.ex1a" />
+        <item itemvalue="Python.ex3a" />
         <item itemvalue="Python.ex1e" />
-        <item itemvalue="Python.ex1d" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +235,11 @@
       <workItem from="1589889959001" duration="46000" />
       <workItem from="1589996342907" duration="350000" />
       <workItem from="1590325586118" duration="627000" />
-      <workItem from="1590408012244" duration="5940000" />
+      <workItem from="1590408012244" duration="6144000" />
+      <workItem from="1590759130384" duration="720000" />
+      <workItem from="1590759880045" duration="465000" />
+      <workItem from="1590760390227" duration="3896000" />
+      <workItem from="1590764321464" duration="3832000" />
     </task>
     <servers />
   </component>
@@ -219,30 +259,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1590409725048">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590766591972">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590409725048" />
-    <state width="723" height="178" key="GridCell.Tab.0.bottom" timestamp="1590413840614">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1590766591972" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1590759705313">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590413840614" />
-    <state width="723" height="178" key="GridCell.Tab.0.center" timestamp="1590413840613">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590759705313" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1590767259599">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590413840613" />
-    <state width="723" height="178" key="GridCell.Tab.0.left" timestamp="1590413840613">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1590767259599">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590413840613" />
-    <state width="723" height="178" key="GridCell.Tab.0.right" timestamp="1590413840613">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1590767259599">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590413840613" />
-    <state x="277" y="62" key="SettingsEditor" timestamp="1590325962396">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1590767259599">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1590325962396" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1590767259599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1590767259599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1590767259599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1590767259599">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state x="324" y="74" key="SettingsEditor" timestamp="1590761833360">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="324" y="74" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1590761833360" />
     <state x="794" y="34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590413924258">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -250,7 +310,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/src$ex2b.coverage" NAME="ex2b Coverage Results" MODIFIED="1589815570108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
-    <SUITE FILE_PATH="coverage/vision_exercises$ex1c.coverage" NAME="ex1c Coverage Results" MODIFIED="1590326033005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
+    <SUITE FILE_PATH="coverage/vision_exercises$ex1c.coverage" NAME="ex1c Coverage Results" MODIFIED="1590760834072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
     <SUITE FILE_PATH="coverage/src$ex1e.coverage" NAME="ex1e Coverage Results" MODIFIED="1589117081031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/src$ex1c.coverage" NAME="ex1c Coverage Results" MODIFIED="1589061605418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/vision_exercises$ex1b__1_.coverage" NAME="ex1b (1) Coverage Results" MODIFIED="1590326023964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
@@ -262,11 +322,12 @@
     <SUITE FILE_PATH="coverage/src$ex1b__1_.coverage" NAME="ex1b (1) Coverage Results" MODIFIED="1589811105871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
     <SUITE FILE_PATH="coverage/vision_exercises$ex1a.coverage" NAME="ex1a Coverage Results" MODIFIED="1590326013645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
     <SUITE FILE_PATH="coverage/vision_exercises$ex2a.coverage" NAME="ex2a Coverage Results" MODIFIED="1590412135636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
+    <SUITE FILE_PATH="coverage/vision_exercises$ex3a__1_.coverage" NAME="ex3a (1) Coverage Results" MODIFIED="1590767102271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/src$1a.coverage" NAME="1a Coverage Results" MODIFIED="1589057269268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/src$ex1a.coverage" NAME="ex1a Coverage Results" MODIFIED="1589061507418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
-    <SUITE FILE_PATH="coverage/vision_exercises$ex1e.coverage" NAME="ex1e Coverage Results" MODIFIED="1590326047295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
+    <SUITE FILE_PATH="coverage/vision_exercises$ex1e.coverage" NAME="ex1e Coverage Results" MODIFIED="1590764721141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
     <SUITE FILE_PATH="coverage/src$ex2c.coverage" NAME="ex2c Coverage Results" MODIFIED="1589794885167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
-    <SUITE FILE_PATH="coverage/vision_exercises$ex2c.coverage" NAME="ex2c Coverage Results" MODIFIED="1590414021903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
+    <SUITE FILE_PATH="coverage/vision_exercises$ex2c.coverage" NAME="ex2c Coverage Results" MODIFIED="1590414131937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/area_processing" />
     <SUITE FILE_PATH="coverage/vision_exercises$ex1d.coverage" NAME="ex1d Coverage Results" MODIFIED="1590326041332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_processing" />
   </component>
 </project>

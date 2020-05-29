@@ -16,7 +16,7 @@ def slide_window(im, n, s, verbose=False, speed=30):
     return windows
 
 def main():
-    im = cv2.imread("community.jpg", 1)
+    im = cv2.imread("images/community.jpg", 1)
     slide_window(im, 50, 50, verbose=True)
 
 if __name__ == '__main__':

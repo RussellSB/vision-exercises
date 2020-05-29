@@ -7,13 +7,24 @@ from matplotlib import pyplot as plt
 
 def main():
     cap = cv2.VideoCapture(0)
+    i = 0
+
     while (True):
         ret, im = cap.read()
         ims = ex1a.split_into_4(im)
+
+        if(i == 0):
+            (fig, ax) = ex1b.initSubPlots(ims)
+
         for i in range(0, 4):
             ims[i] = ex1c.power_transform(ims[i], 2.2)
             cv2.imshow('Segment '+str(i+1), ims[i])
-        ex1b.calcHistograms_RGB(ims)
+
+        ax = ex1b.calcHistograms_RGB(ims, ax)
+        fig.canvas.draw()
+        fig.canvas.flush_events()
+        i += 1
+
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
