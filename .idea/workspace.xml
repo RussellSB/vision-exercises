@@ -20,28 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="540e8e6b-3477-4dde-b548-7c7626f6ef4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex3a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/coins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/shapes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/text.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/area_processing/community.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/area_processing/ex2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/area_processing/ex2b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/area_processing/ex2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morphology/ex3a.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/morphology/ex3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morphology/ex3c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morphology/ex3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morphology/ex3e.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morphology/ex3f.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3f.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_processing/ex1a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_processing/ex1b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_processing/ex1c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_processing/ex1d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_processing/ex1e.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/point_processing/tunnelOfLove.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +94,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -133,6 +116,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point_processing" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -152,6 +138,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/point_processing" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -171,6 +160,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -190,6 +182,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/morphology" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -239,7 +234,9 @@
       <workItem from="1590759130384" duration="720000" />
       <workItem from="1590759880045" duration="465000" />
       <workItem from="1590760390227" duration="3896000" />
-      <workItem from="1590764321464" duration="3832000" />
+      <workItem from="1590764321464" duration="5340000" />
+      <workItem from="1590845999454" duration="7000" />
+      <workItem from="1590927787148" duration="2657000" />
     </task>
     <servers />
   </component>
@@ -267,38 +264,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590759705313" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1590772061227">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590772061227" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1590772061227">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590772061227" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1590772061226">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590772061226" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1590772061227">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590772061227" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1590772061227">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
-    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590772061227" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1590772061227">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
-    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1590772061227" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1590772061227">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
-    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1590767259599">
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1590772061227" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1590772061227">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1590767259599" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1590772061227" />
     <state x="324" y="74" key="SettingsEditor" timestamp="1590761833360">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
