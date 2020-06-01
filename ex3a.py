@@ -2,15 +2,15 @@ import cv2
 import ex1a as ex1a
 import numpy as np
 
-# Returns True for presence and False for absence
-def has_neighbour(im_labels, y, x):
+# Returns 1 for presence, 0 for absence and -1 for out of bounds
+def has_neighbour(im, y, x):
     try:
-        if(im_labels[y, x] != 0):
-            return True
+        if(im[y, x] != 0):
+            return 1
         else:
-            return False
+            return 0
     except (IndexError, ValueError):
-        return False
+        return -1
 
 def four_connected_components_labelling(im):
     h, w = im.shape[0], im.shape[1]
@@ -24,23 +24,20 @@ def four_connected_components_labelling(im):
     # 1st pass: Create labels and note components
     for y in range(0, h):
         for x in range(0, w):
-            hasTop = has_neighbour(im_labels, y - 1, x)
-            hasLeft = has_neighbour(im_labels, y, x - 1)
-
-            if(x == 126 and y == 76):
-                print("debug")
-
             if (im[y, x] != 0):
-                if(not hasTop and not hasLeft):
+                hasTop = has_neighbour(im_labels, y - 1, x)
+                hasLeft = has_neighbour(im_labels, y, x - 1)
+
+                if(hasTop != 1 and hasLeft != 1):
                     im_labels[y, x] = new_label_cnt
                     components.append({new_label_cnt})
                     new_label_cnt += 1
                 else:
-                    if (hasLeft and not hasTop):
+                    if (hasLeft == 1 and hasTop != 1):
                         im_labels[y, x] = im_labels[y, x - 1]
-                    elif (hasTop and not hasLeft):
+                    elif (hasTop == 1 and hasLeft != 1):
                         im_labels[y, x] = im_labels[y - 1, x]
-                    elif (hasTop and hasLeft):
+                    elif (hasTop == 1 and hasLeft == 1):
                         top = im_labels[y - 1, x]
                         left = im_labels[y, x - 1]
                         if(top != left):
@@ -58,7 +55,7 @@ def four_connected_components_labelling(im):
                         else:
                             im_labels[y, x] = top
 
-    print('1 pass ready')
+    print('First pass ready')
 
     # 2nd pass: Globally set labels for each component
     for y in range(0, h):
@@ -68,7 +65,7 @@ def four_connected_components_labelling(im):
                 if label in components[i]:
                     im_labels[y,x] = i+1
 
-    print('2 pass ready')
+    print('Second pass ready')
 
     # Change image to make labelled components represented as randomly unique colours
     colors = []
@@ -83,12 +80,11 @@ def four_connected_components_labelling(im):
             if (r != 0 and g != 0 and b != 0):
                 im[y, x] = colors[im_labels[y, x]  - 1]
 
-    print('=============')
-
     cv2.imshow('4-Connectivity', im)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+    return im
 
 def main():
     im = cv2.imread("images/shapes.jpg", 0)  # loads image
