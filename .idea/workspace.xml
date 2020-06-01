@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="540e8e6b-3477-4dde-b548-7c7626f6ef4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex3c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3c.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +67,7 @@
       <recent name="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex3c">
+  <component name="RunManager" selected="Python.ex3a (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,9 +193,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex3a (1)" />
         <item itemvalue="Python.ex3c" />
         <item itemvalue="Python.ex3b" />
-        <item itemvalue="Python.ex3a (1)" />
         <item itemvalue="Python.ex1a (1)" />
         <item itemvalue="Python.ex1a" />
       </list>
@@ -229,7 +227,7 @@
       <workItem from="1590760390227" duration="3896000" />
       <workItem from="1590764321464" duration="5340000" />
       <workItem from="1590845999454" duration="7000" />
-      <workItem from="1590927787148" duration="25956000" />
+      <workItem from="1590927787148" duration="27968000" />
     </task>
     <servers />
   </component>
