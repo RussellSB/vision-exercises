@@ -12,27 +12,6 @@ def has_neighbour(im_labels, y, x):
     except (IndexError, ValueError):
         return False
 
-def find_union(mini, maxi, compenents):
-    min_set_i = 0
-    max_set_i = 0
-
-    for i in range (0, len(compenents)):
-        set = compenents[i]
-        if mini in set:
-            min_set_i = i
-
-    for i in range (0, len(compenents)):
-        set = compenents[i]
-        if maxi in set:
-            max_set_i = i
-
-
-    if max_set_i != min_set_i:
-        print(min_set_i, max_set_i)
-        compenents[min_set_i] = compenents[min_set_i].union(compenents[max_set_i])
-        del compenents[max_set_i]
-    return compenents
-
 def four_connected_components_labelling(im):
     h, w = im.shape[0], im.shape[1]
 
@@ -40,7 +19,7 @@ def four_connected_components_labelling(im):
     new_label_cnt = 1  # Keeps track of the newest component group
     components = []
 
-    # 1st pass
+    # 1st pass: Create labels and note components
     for y in range(0, h):
         for x in range(0, w):
             hasTop = has_neighbour(im_labels, y - 1, x)
@@ -65,13 +44,26 @@ def four_connected_components_labelling(im):
                         if(top != left):
                             (mini, maxi) = (left,top) if left < top else (top, left)
                             im_labels[y, x] = mini
-                            components = find_union(mini, maxi, components)
+                            # Find union sets
+                            for i in range(0, len(components)):
+                                if maxi in components[i]:  # Removes max element from max set
+                                    components[i].remove(maxi)
+                                if mini in components[i]:  # Adds max element to min set
+                                    components[i].add(maxi)
+                                if len(components[i]) == 0:  # Removes empty set
+                                    del components[i]
+                        else:
+                            im_labels[y, x] = top
 
+    # 2nd pass: Globally set labels for each component
+    for y in range(0, h):
+        for x in range(0, w):
+            label = im_labels[y, x]
+            for i in range(0, len(components)):
+                if label in components[i]:
+                    im_labels[y,x] = i+1 * 80
 
     print('=============')
-
-    # 2nd pass
-    # TODO
 
     cv2.imshow('4-Connectivity', im_labels)
     cv2.waitKey(0)
