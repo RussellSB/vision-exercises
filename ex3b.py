@@ -42,20 +42,19 @@ def dilate(im, k):
                 if (im[y, x] == 2):
                     im[y, x] = 255
 
-    cv2.imshow('Dilation', im)
-    cv2.waitKey(0)
-
     return im
 
 def main():
-    im = cv2.imread("images/shapes.jpg", 0)  # loads image
+    im = cv2.imread("images/text.png", 0)  # loads image
     im = (255 - im) # inverts image
-    ex1a.binary_threshold(im, 20)
+    ex1a.binary_threshold(im, 205)
 
     cv2.imshow('Binarized image', im)
     cv2.waitKey(0)
 
-    dilate(im, k=10)
+    im = dilate(im, k=1)
+    cv2.imshow('Dilation', im)
+    cv2.waitKey(0)
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':

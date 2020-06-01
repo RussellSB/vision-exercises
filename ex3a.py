@@ -80,10 +80,6 @@ def four_connected_components_labelling(im):
             if (r != 0 and g != 0 and b != 0):
                 im[y, x] = colors[im_labels[y, x]  - 1]
 
-    cv2.imshow('4-Connectivity', im)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
     return im
 
 def main():
@@ -94,7 +90,10 @@ def main():
     cv2.imshow('Binarized image', im)
     cv2.waitKey(0)
 
-    four_connected_components_labelling(im)
+    im = four_connected_components_labelling(im)
+    cv2.imshow('4-Connectivity', im)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
 if __name__ == '__main__':
     main()

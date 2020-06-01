@@ -28,20 +28,19 @@ def erode(im, k):
                 if (im[y, x] == 2):
                     im[y, x] = 0
 
-    cv2.imshow('Erosion', im)
-    cv2.waitKey(0)
-
     return im
 
 def main():
-    im = cv2.imread("images/shapes.jpg", 0)  # loads image
+    im = cv2.imread("images/text.png", 0)  # loads image
     im = (255 - im) # inverts image
-    ex1a.binary_threshold(im, 20)
+    ex1a.binary_threshold(im, 120)
 
     cv2.imshow('Binarized image', im)
     cv2.waitKey(0)
 
-    erode(im, k=10)
+    im = erode(im, k=1)
+    cv2.imshow('Erosion', im)
+    cv2.waitKey(0)
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':
