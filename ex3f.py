@@ -19,6 +19,8 @@ def open_cv2(im, kernel, iterations):
 
 def segment_lines(im):
 
+    # opening closing opening was found to work best !!!
+
     kernel = np.ones((8, 1), np.uint8)
     im = open_cv2(im, kernel, 5) # spaces vertically
     #cv2.imshow('Opened', im)
