@@ -3,9 +3,9 @@ import ex1a as ex1a
 import ex3b as ex3b
 import ex3c as ex3c
 
-def close(im, k1, k2):
-    im = ex3b.dilate(im, k1)
-    im = ex3c.erode(im, k2)
+def close(im, k):
+    im = ex3b.dilate(im, k)
+    im = ex3c.erode(im, k)
 
     return im
 
@@ -17,7 +17,7 @@ def main():
     cv2.imshow('Binarized image', im)
     cv2.waitKey(0)
 
-    im = close(im, k1=1, k2=1)
+    im = close(im, k=1)
     cv2.imshow('Closing', im)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
