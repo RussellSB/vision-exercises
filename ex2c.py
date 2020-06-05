@@ -16,7 +16,7 @@ def kernel_Gaussian(size, sigma=1):
     return 1 / (2 * np.pi * sigma ** 2) * np.exp(-exp_formula)
 
 def main():
-    im = cv2.imread("images/community.jpg", 1)
+    im = cv2.imread("images/lena.png", 1)
 
     #sobelx = ex2b.convolve(im, ex2b.kernel_SerbelX())
     #sobely = ex2b.convolve(im, ex2b.kernel_SerbelY())
@@ -26,6 +26,7 @@ def main():
     #cv2.imshow("Convolution - Sobel XY", sobelx + sobely)
     cv2.imshow("Convolution - Gaussian", gaussian)
     cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
 if __name__ == '__main__':
     main()

@@ -18,33 +18,16 @@ def open_cv2(im, kernel, iterations):
     return im
 
 def segment_lines(im):
-
-    # opening closing opening was found to work best !!!
-
     kernel = np.ones((8, 1), np.uint8)
     im = open_cv2(im, kernel, 5) # spaces vertically
-    #cv2.imshow('Opened', im)
-    #cv2.waitKey(0)
 
     kernel = np.ones((1, 150), np.uint8)
     im = close_cv2(im, kernel, 50) # joins horizontally
-    #cv2.imshow('Closed', im)
-    #cv2.waitKey(0)
 
     kernel = np.ones((3, 1), np.uint8)
     im = open_cv2(im, kernel, 50)  # spaces vertically again (as closing horizontally affects vertical a little)
-    #cv2.imshow('Opened', im)
-    #cv2.waitKey(0)
 
     im = ex3a.four_connected_components_labelling(im) # can be improved with eight connected components
-    #cv2.imshow('Segmented', im)
-    #cv2.waitKey(0)
-
-    #contours, hierarchy = cv2.findContours(im.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
-
-    #cv2.imshow('Results', im)
-    #cv2.waitKey(0)
-
     return im
 
 def mask_segmented_lines(im, segmented):

@@ -3,7 +3,7 @@ import numpy as np
 
 # Shin Tomasi corner detector
 # https://www.programcreek.com/python/example/89311/cv2.goodFeaturesToTrack
-def goodFeaturesToTack(gray, im):
+def shinTomasi(gray, im):
     corners = cv2.goodFeaturesToTrack(gray, 100, 0.01, 10)
     corners = np.int0(corners)
     for corner in corners:
@@ -17,7 +17,7 @@ def main():
 
     cv2.imshow('Original', im)
     cv2.waitKey(0)
-    cv2.imshow('Original', goodFeaturesToTack(gray, im))
+    cv2.imshow('Original', shinTomasi(gray, im))
     cv2.waitKey(0)
 
     im = cv2.imread("images/lena.png", 1)  # loads image
@@ -25,7 +25,7 @@ def main():
 
     cv2.imshow('Original', im)
     cv2.waitKey(0)
-    cv2.imshow('Original', goodFeaturesToTack(gray, im))
+    cv2.imshow('Original', shinTomasi(gray, im))
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 

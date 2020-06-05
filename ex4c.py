@@ -1,7 +1,7 @@
 import cv2
 
 def orb(im):
-    orb = cv2.ORB_create(nfeatures=1500)
+    orb = cv2.ORB_create()
     keypoints_orb, descriptors = orb.detectAndCompute(im, None)
     im = cv2.drawKeypoints(im, keypoints_orb, None)
     return im

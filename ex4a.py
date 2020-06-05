@@ -3,8 +3,6 @@ import cv2
 # https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_features_harris/py_features_harris.html
 def cornerHarrisPerform(gray, im):
     dst = cv2.cornerHarris(gray, 5, 3, 0.04) # second param controls neighbourhood
-    #result is dilated for marking the corners, not important
-    #dst = cv2.dilate(dst,None)
     # Threshold for an optimal value, it may vary depending on the image.
     im[dst > 0.01 * dst.max()] = [0, 0, 255]
     return im
