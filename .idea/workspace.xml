@@ -69,7 +69,7 @@
       <recent name="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex2c">
+  <component name="RunManager" selected="Python.ex2b">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +96,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -153,6 +156,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -172,6 +178,9 @@
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -189,9 +198,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex2b" />
         <item itemvalue="Python.ex2c" />
         <item itemvalue="Python.ex2a" />
-        <item itemvalue="Python.ex2b" />
         <item itemvalue="Python.ex3f" />
         <item itemvalue="Python.ex4d" />
       </list>
@@ -228,7 +237,8 @@
       <workItem from="1591088013545" duration="10345000" />
       <workItem from="1591136310222" duration="290000" />
       <workItem from="1591170086586" duration="719000" />
-      <workItem from="1591355071477" duration="16775000" />
+      <workItem from="1591355071477" duration="20019000" />
+      <workItem from="1591451719550" duration="426000" />
     </task>
     <servers />
   </component>
