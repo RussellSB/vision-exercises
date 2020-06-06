@@ -1,36 +1,57 @@
 import cv2
 import numpy as np
 from skimage.exposure import rescale_intensity
-import ex2b as ex2b
 
-# TODO: Rephrase (IMPROVE w/ pseudocode in slides)
-def kernel_Gaussian(size, sigma=1):
-    x0 = y0 = size // 2
+def get_kernel_sobelY():
+    sobelY = np.array((
+        [1, 2, 1],
+        [0, 0, 0],
+        [-1, -2, -1]), dtype="int")
+    return sobelY
 
-    x = np.arange(0, size, dtype=float)
-    y = np.arange(0, size, dtype=float)[:, np.newaxis]
-    x -= x0
-    y -= y0
+def get_kernel_sobelX():
+    sobelX = np.array((
+        [-1, 0, 1],
+        [-2, 0, 2],
+        [-1, 0, 1]), dtype="int")
+    return sobelX
 
-    exp_formula = (x ** 2 + y ** 2) / (2 * sigma ** 2)
-    return 1 / (2 * np.pi * sigma ** 2) * np.exp(-exp_formula)
+# Performs convolution, sliding over image
+def convolve(im, kernel, s=1):
+    kernel = kernel.T
+
+    kw, kh = kernel.shape[:2]  # kernel width and height
+    ih, iw = im.shape[:2]  # image width and height
+
+    pad = (kw - 1) // 2
+    im = cv2.copyMakeBorder(im, pad, pad, pad, pad, cv2.BORDER_CONSTANT)  # Applies padding to convolve edges
+    out = np.zeros((ih, iw), dtype='float32')  # Stores output
+
+    for y in range(pad, ih + pad, s):
+        for x in range(pad, iw + pad, s):
+            roi = im[y-pad : y+pad+1, x-pad : x+pad+1]  # Region of interest
+            out[y-pad, x-pad] = (roi * kernel).sum()  # convolve
+
+    out = rescale_intensity(out, in_range=(0, 255))
+    out = (out * 255).astype('uint8')
+
+    return out
 
 def main():
-    im = cv2.imread("images/lena.png", 1)
+    im = cv2.imread("images/shapes.jpg", 0)
 
-    #sobelx = ex2b.convolve(im, ex2b.kernel_SerbelX())
-    #sobely = ex2b.convolve(im, ex2b.kernel_SerbelY())
-    gaussian = ex2b.convolve(im, kernel_Gaussian(3, 1))
-
-    cv2.imshow("Original", im)
-    #cv2.imshow("Convolution - Sobel XY", sobelx + sobely)
-    cv2.imshow("Convolution - Gaussian", gaussian)
+    kernel = get_kernel_sobelX()
+    sobx = convolve(im, kernel)
+    cv2.imshow('Sobel X', sobx)
     cv2.waitKey(0)
+
+    kernel = get_kernel_sobelY()
+    soby = convolve(im, kernel)
+    cv2.imshow('Sobel Y', soby)
+    cv2.waitKey(0)
+
     cv2.destroyAllWindows()
+
 
 if __name__ == '__main__':
     main()
-
-# https://www.pyimagesearch.com/2016/07/25/convolutions-with-opencv-and-python/
-
-
