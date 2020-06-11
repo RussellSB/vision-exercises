@@ -48,18 +48,20 @@ def calcHistograms_RGB(ims, ax):
     return ax
 
 def main():
-    im = cv2.imread("images/lena.png", 0)  # loads image
+    im = cv2.imread("images/tol.jpg", 0)  # loads image
     ims = ex1a.split_into_4(im)
+
 
     for i in range(0, 4):
         ex1a.binary_threshold(ims[i], 127)
-        cv2.imshow('Lena (' + str(i + 1) + ')', ims[i])
+        cv2.imshow('Tunnel of Love (' + str(i + 1) + ')', ims[i])
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
     (fig, ax) = initSubPlots(ims)
     ax = calcHistograms(ims, ax)
     fig.canvas.draw()
     fig.canvas.flush_events()
-    cv2.waitKey()
-    exit()
 
 if __name__ == '__main__':
     main()

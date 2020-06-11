@@ -21,9 +21,22 @@
   <component name="ChangeListManager">
     <list default="true" id="540e8e6b-3477-4dde-b548-7c7626f6ef4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1e.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1e.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex3c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex4a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex4b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex4c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex4d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lena.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +82,7 @@
       <recent name="C:\Users\rsamm\root\AI-Bsc\Vision\vision-exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex2b">
+  <component name="RunManager" selected="Python.ex1e">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex2a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex1e" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +118,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex2a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex1e.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,45 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex2b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex2b.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex2c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex2c.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex3f" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex4a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +140,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3f.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex4a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex4b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex4b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex4c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex4c.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex2b" />
-        <item itemvalue="Python.ex2c" />
-        <item itemvalue="Python.ex2a" />
-        <item itemvalue="Python.ex3f" />
+        <item itemvalue="Python.ex1e" />
+        <item itemvalue="Python.ex4c" />
         <item itemvalue="Python.ex4d" />
+        <item itemvalue="Python.ex4b" />
+        <item itemvalue="Python.ex4a" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +258,16 @@
       <workItem from="1591170086586" duration="719000" />
       <workItem from="1591355071477" duration="20019000" />
       <workItem from="1591451719550" duration="426000" />
+      <workItem from="1591538270109" duration="35000" />
+      <workItem from="1591610069512" duration="7153000" />
+      <workItem from="1591623040498" duration="9889000" />
+      <workItem from="1591652609251" duration="891000" />
+      <workItem from="1591689445732" duration="7667000" />
+      <workItem from="1591778213486" duration="3356000" />
+      <workItem from="1591794941566" duration="4492000" />
+      <workItem from="1591802805578" duration="978000" />
+      <workItem from="1591814345206" duration="1946000" />
+      <workItem from="1591859876150" duration="10000" />
     </task>
     <servers />
   </component>
@@ -258,14 +287,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590766591972">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591789991530">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1590766591972" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1591357608694">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1591789991530" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1591859884224">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591357608694" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591859884224" />
     <state width="1493" height="336" key="GridCell.Tab.0.bottom" timestamp="1591105241947">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -46,11 +46,13 @@ def main():
     kernel = get_kernel_sobelX()
     sobx = convolve(im, kernel)
     cv2.imshow('Sobel X', sobx)
+    cv2.imwrite('out/sobelx.png', sobx)
     cv2.waitKey(0)
 
     kernel = get_kernel_sobelY()
     soby = convolve(im, kernel)
     cv2.imshow('Sobel Y', soby)
+    cv2.imwrite('out/sobely.png', soby)
     cv2.waitKey(0)
 
     cv2.destroyAllWindows()

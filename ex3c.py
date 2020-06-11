@@ -33,7 +33,7 @@ def erode(im, k):
 def main():
     im = cv2.imread("images/text.png", 0)  # loads image
     im = (255 - im) # inverts image
-    ex1a.binary_threshold(im, 120)
+    ex1a.binary_threshold(im, 127)
 
     cv2.imshow('Binarized image', im)
     cv2.waitKey(0)

@@ -90,8 +90,8 @@ def main():
     cv2.imshow('Binarized image', im)
     cv2.waitKey(0)
 
-    im = four_connected_components_labelling(im)
-    cv2.imshow('4-Connectivity', im)
+    con = four_connected_components_labelling(im)
+    cv2.imshow('4-Connectivity', con)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 

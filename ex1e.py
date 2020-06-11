@@ -11,16 +11,18 @@ def main():
 
     while (True):
         ret, im = cap.read()
+        im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
         ims = ex1a.split_into_4(im)
 
         if(i == 0):
             (fig, ax) = ex1b.initSubPlots(ims)
 
         for i in range(0, 4):
+            ims[i] = ex1a.binary_threshold(ims[i], 127)
             ims[i] = ex1c.power_transform(ims[i], 2.2)
             cv2.imshow('Segment '+str(i+1), ims[i])
 
-        ax = ex1b.calcHistograms_RGB(ims, ax)
+        ax = ex1b.calcHistograms_BW(ims, ax)
         fig.canvas.draw()
         fig.canvas.flush_events()
         i += 1

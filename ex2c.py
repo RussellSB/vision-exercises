@@ -32,7 +32,7 @@ def get_kernel_gaussian():
     return gauss
 
 def main():
-    im = cv2.imread("images/lena.png", 0)
+    im = cv2.imread("images/tol.jpg", 0)
 
     cv2.imshow('Original', im)
     cv2.waitKey(0)
@@ -40,21 +40,25 @@ def main():
     kernel = get_kernel_sobelX()
     sobx = ex2b.convolve(im, kernel)
     cv2.imshow('Sobel X', sobx)
+    cv2.imwrite('out/sobelx.png', sobx)
     cv2.waitKey(0)
 
     kernel = get_kernel_sobelY()
     soby = ex2b.convolve(im, kernel)
     cv2.imshow('Sobel Y', soby)
+    cv2.imwrite('out/sobely.png', soby)
     cv2.waitKey(0)
 
     kernel = get_kernel_gaussian()
     gauss = ex2b.convolve(im, kernel)
     cv2.imshow('Gaussian', gauss)
+    cv2.imwrite('out/gauss.png', gauss)
     cv2.waitKey(0)
 
     kernel = get_kernel_bilinear()
     bil = ex2b.convolve(im, kernel)
     cv2.imshow('Bilinear', bil)
+    cv2.imwrite('out/bilinear.png', bil)
     cv2.waitKey(0)
 
     cv2.destroyAllWindows()

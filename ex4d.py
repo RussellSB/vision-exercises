@@ -22,7 +22,7 @@ def feature_match(im1, im2):
     # Sort them in order of their distance
     matches = sorted(matches, key = lambda x:x.distance)
 
-    # Draw first 10 matches
+    # Draw first 100 matches
     img3 = cv2.drawMatches(im1, kp1, im2, kp2, matches[:100], None, flags=2)
 
     return img3
