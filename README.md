@@ -7,7 +7,5 @@ All files are organised with respect to:
 
 Please note that all files were previously organised in their own
 individual directory, but there were difficulties in importing methods
-from other python files in external directeries, and hence they are now
-all placed in the root folder. This allows methods (most particularly the
-implemented thresholding method) to be cleanly imported by various lab
-exercises.
+from other python files in external directeries, and hence they are temporarily
+all placed in the root folder.
