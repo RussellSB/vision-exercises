@@ -1,7 +1,4 @@
-Name: Russell Sammut-Bonnici
-Title: Computer Vision Lab Assignment
-
-All files are organised with respect to the provided lab sheet.
+All files are organised with respect to:
 
 - ex1.py files: Point Processing
 - ex2.py files: Area Processing
