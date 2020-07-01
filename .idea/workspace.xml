@@ -21,22 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="540e8e6b-3477-4dde-b548-7c7626f6ef4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1e.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex2c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex3c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex3c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex4a.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex4b.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex4c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex4d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex4d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lena.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +252,8 @@
       <workItem from="1591802805578" duration="978000" />
       <workItem from="1591814345206" duration="1946000" />
       <workItem from="1591859876150" duration="10000" />
+      <workItem from="1592217300298" duration="211000" />
+      <workItem from="1592245265252" duration="537000" />
     </task>
     <servers />
   </component>
@@ -291,10 +277,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1591789991530" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1591859884224">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1592245803021">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591859884224" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1592245803021" />
     <state width="1493" height="336" key="GridCell.Tab.0.bottom" timestamp="1591105241947">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -331,10 +317,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="324" y="74" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1591444320633" />
-    <state width="774" height="423" key="XDebugger.FullValuePopup" timestamp="1590998474348">
+    <state width="774" height="423" key="XDebugger.FullValuePopup" timestamp="1592217402015">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="774" height="423" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1590998474348" />
+    <state width="774" height="423" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1592217402015" />
     <state x="794" y="34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590413924258">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
